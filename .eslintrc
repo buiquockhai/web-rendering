@@ -104,7 +104,8 @@
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": "off",
     "react/jsx-filename-extension": "error",
-    "jsx-a11y/anchor-is-valid": "error"
+    "jsx-a11y/anchor-is-valid": "error",
+    "@next/next/no-img-element": "off"
   },
   "ignorePatterns": [".cache", "node_modules"]
 }

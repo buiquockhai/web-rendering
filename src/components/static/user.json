@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Jairo", "last": "Delgado" },
+      "location": {
+        "street": { "number": 9397, "name": "Circunvalación Norte Ontiveros" },
+        "city": "San Rafael de Arriba",
+        "state": "Hidalgo",
+        "country": "Mexico",
+        "postcode": 39069,
+        "coordinates": { "latitude": "23.3310", "longitude": "-145.0662" },
+        "timezone": { "offset": "+9:30", "description": "Adelaide, Darwin" }
+      },
+      "email": "jairo.delgado@example.com",
+      "login": {
+        "uuid": "74ef6c65-bcc1-4900-8709-81797f6ccaa3",
+        "username": "angrylion577",
+        "password": "india",
+        "salt": "SWXeLaaa",
+        "md5": "00409ee8f4b7538937ba6870cf843ba3",
+        "sha1": "ff1b66d1e8842c71ca20c80e918212bbb099cf6a",
+        "sha256": "69fd75b9db2a822f1d0b2a883220f1184f9514f4eacccde13fed3ee3868c1936"
+      },
+      "dob": { "date": "1949-11-05T05:37:30.636Z", "age": 73 },
+      "registered": { "date": "2011-11-26T04:44:30.119Z", "age": 11 },
+      "phone": "(649) 477 6621",
+      "cell": "(673) 683 9779",
+      "id": { "name": "NSS", "value": "03 27 01 6925 8" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/58.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+      },
+      "nat": "MX"
+    }
+  ],
+  "info": {
+    "seed": "a8c18d5862bb4cc7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
