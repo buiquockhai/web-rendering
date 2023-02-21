@@ -33,7 +33,7 @@ export async function getStaticProps() {
   const user = await resUser.json()
 
   return {
-    revalidate: 3600,
+    revalidate: 30,
     props: {
       thumbnail,
       user,
