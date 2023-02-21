@@ -23,7 +23,7 @@ export default function SSGPage({ thumbnail, user }) {
       </div>
       <img
         decoding='async'
-        className='h-[50vw] w-[100vw] object-contain border mt-5'
+        className='h-[50vw] w-full object-contain border mt-5'
         src={thumbnail.message}
         alt={thumbnail.status}
       />

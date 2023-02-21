@@ -9,7 +9,7 @@ export default function ISRPage({ thumbnail, user }) {
     >
       <img
         decoding='async'
-        className='w-full h-[50vw] w-[100vw] object-contain border mt-5'
+        className='h-[50vw] w-full object-contain border mt-5'
         src={thumbnail.message}
         alt={thumbnail.status}
       />

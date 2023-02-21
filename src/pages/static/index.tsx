@@ -12,7 +12,7 @@ export default function StaticPage() {
       <p className='text-sm text-red-500'>*using JSON static data</p>
       <img
         decoding='async'
-        className='w-full h-[50vw] w-[100vw] object-contain border mt-5'
+        className='h-[50vw] w-full object-contain border mt-5'
         src={thumbnail.message}
         alt={thumbnail.status}
       />
