@@ -1,15 +1,29 @@
+import Button from '@component/button'
 import DetailLayout from '@layout/detail'
 import type { MetaProps } from '@layout/meta'
+import { MY_SECRET_TOKEN } from '@page/api/revalidate'
 
 export default function SSGPage({ thumbnail, user }) {
+  const onRevalidate = async () => {
+    const revalidateRes = await fetch(
+      `https://web-rendering.vercel.app/api/revalidate?path=/ssg&secret=${MY_SECRET_TOKEN}`,
+    )
+    const message = await revalidateRes.json()
+    // eslint-disable-next-line no-console
+    console.log({ message })
+  }
+
   return (
     <DetailLayout
       head='SSG'
       description='Automatically generated as static HTML + JSON files (uses getStaticProps)'
     >
+      <div className='flex justify-end'>
+        <Button onClick={onRevalidate}>Revalidate</Button>
+      </div>
       <img
         decoding='async'
-        className='w-full object-contain border mt-5'
+        className='h-[50vw] w-[100vw] object-contain border mt-5'
         src={thumbnail.message}
         alt={thumbnail.status}
       />

@@ -9,7 +9,7 @@ export default function SSRPage({ thumbnail, user }) {
     >
       <img
         decoding='async'
-        className='w-full object-contain border mt-5'
+        className='w-full h-[50vw] w-[100vw] object-contain border mt-5'
         src={thumbnail.message}
         alt={thumbnail.status}
       />
